@@ -1,0 +1,71 @@
+.logo{
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+}
+.container{
+    max-width: 955px;
+    max-height: 60vh;
+    /* background-color: red; */
+    border: 2px solid black;
+    margin: auto;
+    min-height: 60vh;
+    padding: 33px;
+    margin-bottom: 23px;
+    overflow-y: auto;
+}
+h1{
+    margin: 0px 12px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.massage{
+/* background-color: grey; */
+width: 24%;
+padding: 5px;
+margin: 17px 2px;
+border: 2px solid black;
+border-radius: 10px;
+}
+.left{
+    background-color: white;
+float: left;
+clear: both;
+
+}
+.right{
+    background-color: greenyellow;
+float: right;
+clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#massageInp{
+    width: 87%;
+    height: 34px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 22px;
+    margin-right: 5px;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    width: 8%;
+}
+
+body{
+    background-image: linear-gradient(rgb(255,255,255),rgb(26, 97, 230));
+    min-height: 100vh;
+}
