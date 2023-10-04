@@ -2,7 +2,7 @@
 
 const io = require('socket.io')(8000,{
     cors: {
-        origin: "https://node-js-server-yo25.onrender.com:8000",
+        origin: "http://localhost:8000",
         methods: ["GET", "POST"],
         allowedHeaders: ["my-custom-header"],
     credentials: true
